@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS ON)
 
 # Add OpenCV package
-set(OpenCV_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/opencv/build_gcc)
+set(OpenCV_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ext/opencv/build)
 find_package(OpenCV REQUIRED)
 if(OpenCV_FOUND)
 	include_directories(${OpenCV_INCLUDE_DIRS})
